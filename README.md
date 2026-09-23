@@ -30,6 +30,10 @@ Challenge the computer, make your choice, and see who wins! The game provides in
 
 <img width="958" height="539" alt="Screenshot 2026-09-23 182744" src="https://github.com/user-attachments/assets/2fb90a62-f9b7-432e-b0fb-b90c9e148f98" />
 
+## 🌐 Live Demo
+
+https://sknida482-cmyk.github.io/2-rock-paper-scissors/
+
 ## 👩‍💻 Author
 
 **Shaikh Nida**

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the website responsive on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rock Paper Scissors</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main game container -->
+    <main class="game-container">
+
+        <!-- Game heading -->
+        <header class="game-header">
+            <p class="tag">⚡ QUICK GAME</p>
+            <h1>Rock Paper Scissors</h1>
+            <p class="subtitle">Choose your move and beat the computer!</p>
+        </header>
+
+
+        <!-- Score section -->
+        <section class="score-board">
+
+            <div class="score-box">
+                <span>YOU</span>
+                <strong id="playerScore">0</strong>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="score-box">
+                <span>COMPUTER</span>
+                <strong id="computerScore">0</strong>
+            </div>
+
+        </section>
+
+
+        <!-- Result section -->
+        <section class="result-area">
+
+            <div class="choice">
+                <span class="choice-label">YOUR CHOICE</span>
+                <div id="playerChoice" class="choice-icon">❔</div>
+            </div>
+
+            <div class="result-text">
+                <span id="resultMessage">Make your move!</span>
+            </div>
+
+            <div class="choice">
+                <span class="choice-label">COMPUTER</span>
+                <div id="computerChoice" class="choice-icon">❔</div>
+            </div>
+
+        </section>
+
+
+        <!-- Game buttons -->
+        <section class="moves-section">
+
+            <h2>Choose Your Move</h2>
+
+            <div class="moves">
+
+                <button class="move-btn" data-choice="rock">
+                    <span class="move-icon">✊</span>
+                    <span>Rock</span>
+                </button>
+
+                <button class="move-btn" data-choice="paper">
+                    <span class="move-icon">✋</span>
+                    <span>Paper</span>
+                </button>
+
+                <button class="move-btn" data-choice="scissors">
+                    <span class="move-icon">✌️</span>
+                    <span>Scissors</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Reset button -->
+        <button id="resetBtn" class="reset-btn">
+            ↻ Reset Game
+        </button>
+
+    </main>
+
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
